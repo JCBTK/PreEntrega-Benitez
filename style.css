@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(226, 205, 19);
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    align-items: center;
+    text-align: center;
+}
+h1{
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 4rem;
+    transition: 0.3s;
+    filter: drop-shadow( 0.2rem 0.2rem 0px black );
+}
+h1:hover{
+    text-shadow: 0.4rem 0.4rem 0 black;
+}
+h2{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.formulario{
+    border: 2px solid ;
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem 0 black;
+    width: 40%;
+    padding: 2rem;
+    text-align: center;
+    transition: 0.2s;
+}
+.formulario:hover{
+    box-shadow: 0.7rem 0.7rem 0 black;
+}
+#btnCalcular{
+    color: white;
+    background-color: black;
+    border-radius: 0.5rem;
+    border: 4px solid transparent;
+    padding: 0.5rem;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    transition: 0.35s;
+    font-family: 'Pacifico', cursive;
+}
+#btnCalcular:hover { 
+    background-color: rgb(65, 65, 65);
+    border: 4px solid  rgb(165, 165, 165) ;
+}
